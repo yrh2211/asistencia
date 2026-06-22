@@ -1,0 +1,50 @@
+{
+  "name": "Control de Asistencia DAMUR CONSTRUCTORA",
+  "short_name": "Asistencia DAMUR",
+  "description": "Aplicación de control de asistencia con captura de foto",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "fullscreen",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#378ADD",
+  "categories": ["productivity"],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%23378ADD' width='540' height='720'/><text x='270' y='360' font-size='80' font-weight='700' fill='%23fff' text-anchor='middle' dominant-baseline='central'>Asistencia</text></svg>",
+      "sizes": "540x720",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    }
+  ],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%23378ADD' width='192' height='192'/><text x='96' y='96' font-size='120' font-weight='700' fill='%23fff' text-anchor='middle' dominant-baseline='central'>A</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='%23378ADD' width='512' height='512'/><text x='256' y='256' font-size='320' font-weight='700' fill='%23fff' text-anchor='middle' dominant-baseline='central'>A</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Registrar asistencia",
+      "short_name": "Registrar",
+      "description": "Abre la aplicación para registrar tu asistencia",
+      "url": "/index.html",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect fill='%234caf50' width='96' height='96'/><text x='48' y='48' font-size='60' font-weight='700' fill='%23fff' text-anchor='middle' dominant-baseline='central'>✓</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false
+}
